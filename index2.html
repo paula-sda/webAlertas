@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AlertaWeb | Alertas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #b30000;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+      position: relative;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .home-button {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      background-color: #b30000;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .home-button:hover {
+      background-color: #990000;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+      border-left: 6px solid #b30000;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #b30000;
+    }
+    .card ul {
+      padding-left: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .card ul li {
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+      line-height: 1.3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="http://localhost/index.html" class="home-button">Volver al Inicio</a>
+    <h1>ESTATE SIEMPRE ALERTA</h1>
+    <p>¡Elige tu alerta y sigue los tips para mantenerte seguro!</p>
+  </header>
+
+  <section class="grid">
+    <div class="card">
+      <h3>Tsunami</h3>
+      <ul>
+        <li>Dirígete a zonas elevadas.</li>
+        <li>Aléjate de la costa.</li>
+        <li>No regreses hasta que sea seguro.</li>
+        <li>Escucha las alertas oficiales.</li>
+        <li>Ten un kit de emergencia listo.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Terremoto</h3>
+      <ul>
+        <li>Cúbrete bajo una mesa resistente.</li>
+        <li>Aléjate de ventanas.</li>
+        <li>Permanece en el lugar hasta que pase.</li>
+        <li>Ten un punto de encuentro definido.</li>
+        <li>Verifica estructuras dañadas antes de entrar.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Ola de calor</h3>
+      <ul>
+        <li>Hidrátate frecuentemente.</li>
+        <li>Evita salir en horas pico.</li>
+        <li>Usa ropa ligera.</li>
+        <li>Busca sombra o aire acondicionado.</li>
+        <li>Cuida a niños y mayores.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Incendio</h3>
+      <ul>
+        <li>Evacúa si es necesario.</li>
+        <li>Cierra ventanas y puertas.</li>
+        <li>No uses ascensores.</li>
+        <li>Informa a emergencias.</li>
+        <li>Prepárate con un plan de salida.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Inundación</h3>
+      <ul>
+        <li>No camines por agua en movimiento.</li>
+        <li>Desconecta la electricidad.</li>
+        <li>Refúgiate en zonas altas.</li>
+        <li>No conduzcas por zonas inundadas.</li>
+        <li>Escucha alertas meteorológicas.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Lluvia intensa</h3>
+      <ul>
+        <li>Evita zonas bajas.</li>
+        <li>Conduce con precaución.</li>
+        <li>Revisa el estado del tiempo.</li>
+        <li>Mantente alejado de ríos o canales.</li>
+        <li>Ten linternas y pilas disponibles.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Tornado</h3>
+      <ul>
+        <li>Refúgiate en un sótano o habitación interior.</li>
+        <li>Aléjate de ventanas.</li>
+        <li>Escucha radios de emergencia.</li>
+        <li>Ten un plan de evacuación.</li>
+        <li>No te quedes en vehículos.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Nevada</h3>
+      <ul>
+        <li>Evita conducir si es posible.</li>
+        <li>Viste con ropa térmica.</li>
+        <li>Ten suministros en casa.</li>
+        <li>Mantén el calor con cuidado.</li>
+        <li>Limpia el techo de tu casa si hay acumulación.</li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
+
+

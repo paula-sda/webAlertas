@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlertaWeb | Inicio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000;
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('/static/fondo2.jpg') no-repeat center center/cover;
+            filter: blur(10px);
+            z-index: -1;
+        }
+
+        .tarjeta {
+            background-color: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(8px);
+            border-radius: 16px;
+            padding: 50px 40px;
+            text-align: center;
+            max-width: 480px;
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s ease;
+        }
+
+        .tarjeta:hover {
+            transform: translateY(-8px);
+        }
+
+        .tarjeta h1 {
+            font-size: 2.6rem;
+            margin-bottom: 18px;
+            color: #c0392b; /* Rojo principal coherente */
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+        }
+
+        .tarjeta p {
+            font-size: 1.2rem;
+            margin-bottom: 28px;
+            line-height: 1.5;
+            color: #e0e0e0;
+        }
+
+        .btn-emergencias {
+            background-color: #c0392b;
+            color: #fff;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn-emergencias:hover {
+            background-color: #a93226;
+            transform: scale(1.05);
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <div class="tarjeta">
+        <h1>BIENVENIDO A LA WEB DE ALERTAS</h1>
+        <p>Mantente informado en todo momento. Activa alertas personalizadas y accede a consejos útiles para afrontar cualquier situación con tranquilidad.</p>
+        <a href="http://localhost/index2.html">
+            <button class="btn-emergencias">Ver Emergencias</button>
+        </a>
+    </div>
+
+</body>
+</html>
+
+
